@@ -1,0 +1,155 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    h1 {
+        padding-bottom: 24px;
+        font-family: Gilroy;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 59.42px;
+        text-align: center;
+
+    }
+
+    p {
+        padding-bottom: 54px;
+        font-family: Gilroy;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 21.83px;
+        text-align: center;
+
+    }
+}
+
+.box-mac {
+    display: flex;
+    justify-content: center;
+    gap: 54px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    h2 {
+        font-family: Gilroy;
+        font-size: 48px;
+        font-weight: 700;
+        text-align: center;
+
+    }
+
+    p {
+        font-family: Gilroy;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 59.42px;
+        text-align: left;
+
+    }
+
+    span {
+        font-family: Gilroy;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 59.42px;
+        text-align: left;
+    }
+}
+
+.btn {
+    display: flex;
+    gap: 11px;
+    justify-content: center;
+    padding-bottom: 39px;
+
+    button {
+        width: 155px;
+        height: 42px;
+        top: 653px;
+        left: 869px;
+
+        border-radius: 10px 10px 10px 10px;
+        opacity: 0px;
+        border: 0;
+    }
+}
+
+.active {
+    width: 155px;
+    height: 42px;
+    top: 653px;
+    left: 703px;
+    gap: 0px;
+    border-radius: 10px 0px 0px 0px;
+    opacity: 0px;
+    background-color: #0071E3;
+}
+
+.color {
+    font-family: Gilroy;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.71px;
+    text-align: left;
+    color: #0071E3;
+}
+
+.money {
+    font-family: Gilroy;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 59.42px;
+    text-align: left;
+    color: #000000;
+}
+
+.ssd {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+
+    button {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 321px;
+        height: 57px;
+        top: 862px;
+        left: 703px;
+        gap: 0px;
+        border-radius: 10px 10px 10px 10px;
+        border: 2px solid #fdfdfe;
+        opacity: 0px;
+        font-family: Gilroy;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 22.05px;
+        text-align: left;
+        
+        
+    }
+    .btnactive{
+        
+        border: 2px solid #007FFF;
+    
+    }
+}
